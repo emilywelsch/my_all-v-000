@@ -5,6 +5,9 @@ def my_all?(collection)
   block_return_values = []
   while i < collection.length
     block_return_values << yield(collection[i])
-    i += 1  
+    i += 1
   end
 end
+
+# call method with block
+my_all?([1,2,3]) {|i| i < 2}
