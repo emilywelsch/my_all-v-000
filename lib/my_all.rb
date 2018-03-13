@@ -15,4 +15,4 @@ def my_all?(collection)
 end
 
 # call method with block
-my_all?([1,2,3]) {|i| i < 2}
+# my_all?([1,2,3]) {|i| i < 2}
